@@ -1,0 +1,43 @@
+{
+  "common": {
+    "appName": "推しチェッカー",
+    "appTagline": "韓国地下アイドル診断",
+    "restart": "最初からやり直す",
+    "loading": "読み込み中..."
+  },
+  "home": {
+    "title": "推しチェッカー",
+    "subtitle": "韓国地下アイドル診断",
+    "description": "いくつかの質問に答えて、あなたにぴったりの",
+    "descriptionHighlight": "推しメンバー",
+    "descriptionEnd": "を見つけよう！",
+    "step1": "アンケート（約1分）",
+    "step2": "二択バトル（10回）",
+    "step3": "結果発表（TOP3）",
+    "startButton": "診断スタート",
+    "footer": "© 2025 推しチェッカー"
+  },
+  "survey": {
+    "title": "アンケート",
+    "progress": "進捗",
+    "calculating": "あなたの推しを探しています...",
+    "restart": "最初からやり直す"
+  },
+  "battle": {
+    "title": "二択バトル",
+    "subtitle": "どっちが好き？",
+    "progress": "ラウンド",
+    "vs": "VS",
+    "calculating": "結果を集計しています..."
+  },
+  "result": {
+    "title": "結果発表",
+    "subtitle": "あなたの推しメンバー TOP3",
+    "yourOshi": "あなたの推し",
+    "rank1": "1位",
+    "rank2": "2位",
+    "rank3": "3位",
+    "restart": "もう一度診断する",
+    "share": "結果をシェア"
+  }
+}

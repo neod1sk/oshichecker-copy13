@@ -1,0 +1,134 @@
+[
+  {
+    "id": "q1",
+    "text": "好みのタイプは？",
+    "textKo": "좋아하는 타입은?",
+    "textEn": "What type do you prefer?",
+    "options": [
+      {
+        "text": "可愛くて元気な子",
+        "textKo": "귀엽고 활발한 사람",
+        "textEn": "Cute and energetic",
+        "scoreKey": "cute",
+        "scoreValue": 2
+      },
+      {
+        "text": "クールでカッコいい子",
+        "textKo": "쿨하고 멋있는 사람",
+        "textEn": "Cool and stylish",
+        "scoreKey": "cool",
+        "scoreValue": 2
+      }
+    ]
+  },
+  {
+    "id": "q2",
+    "text": "一緒にいて楽しいのは？",
+    "textKo": "함께 있으면 즐거운 사람은?",
+    "textEn": "Who would be fun to be with?",
+    "options": [
+      {
+        "text": "いつも笑わせてくれる人",
+        "textKo": "항상 웃게 해주는 사람",
+        "textEn": "Someone who always makes you laugh",
+        "scoreKey": "funny",
+        "scoreValue": 2
+      },
+      {
+        "text": "穏やかで落ち着く人",
+        "textKo": "온화하고 차분한 사람",
+        "textEn": "Someone calm and soothing",
+        "scoreKey": "calm",
+        "scoreValue": 2
+      }
+    ]
+  },
+  {
+    "id": "q3",
+    "text": "デートするなら？",
+    "textKo": "데이트를 한다면?",
+    "textEn": "For a date, you'd prefer?",
+    "options": [
+      {
+        "text": "遊園地でアクティブに",
+        "textKo": "놀이공원에서 활동적으로",
+        "textEn": "Active day at an amusement park",
+        "scoreKey": "energetic",
+        "scoreValue": 2
+      },
+      {
+        "text": "カフェでゆっくり",
+        "textKo": "카페에서 여유롭게",
+        "textEn": "Relaxing at a café",
+        "scoreKey": "calm",
+        "scoreValue": 2
+      }
+    ]
+  },
+  {
+    "id": "q4",
+    "text": "惹かれるのは？",
+    "textKo": "끌리는 사람은?",
+    "textEn": "What attracts you?",
+    "options": [
+      {
+        "text": "ミステリアスで掴めない人",
+        "textKo": "미스터리하고 알 수 없는 사람",
+        "textEn": "Someone mysterious and hard to read",
+        "scoreKey": "mysterious",
+        "scoreValue": 2
+      },
+      {
+        "text": "オープンで分かりやすい人",
+        "textKo": "개방적이고 이해하기 쉬운 사람",
+        "textEn": "Someone open and easy to understand",
+        "scoreKey": "funny",
+        "scoreValue": 2
+      }
+    ]
+  },
+  {
+    "id": "q5",
+    "text": "ステージで見たいのは？",
+    "textKo": "무대에서 보고 싶은 것은?",
+    "textEn": "What do you want to see on stage?",
+    "options": [
+      {
+        "text": "キレキレのダンス",
+        "textKo": "칼군무",
+        "textEn": "Sharp and powerful dance",
+        "scoreKey": "cool",
+        "scoreValue": 2
+      },
+      {
+        "text": "キュートな表情管理",
+        "textKo": "귀여운 표정 관리",
+        "textEn": "Cute expressions and fan service",
+        "scoreKey": "cute",
+        "scoreValue": 2
+      }
+    ]
+  },
+  {
+    "id": "q6",
+    "text": "推しに求めるのは？",
+    "textKo": "최애에게 바라는 것은?",
+    "textEn": "What do you want from your bias?",
+    "options": [
+      {
+        "text": "いつもテンション高め",
+        "textKo": "항상 텐션 높은 사람",
+        "textEn": "Always high energy",
+        "scoreKey": "energetic",
+        "scoreValue": 2
+      },
+      {
+        "text": "ギャップのある魅力",
+        "textKo": "갭 있는 매력",
+        "textEn": "Charming with unexpected sides",
+        "scoreKey": "mysterious",
+        "scoreValue": 2
+      }
+    ]
+  }
+]

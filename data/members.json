@@ -1,0 +1,172 @@
+[
+  {
+    "id": "member-01",
+    "name": "メンバー1",
+    "nameKo": "멤버 1",
+    "nameEn": "Member 1",
+    "groupId": "group-a",
+    "photoUrl": "https://placehold.co/400x400/FF6B9D/white?text=1",
+    "tags": ["cute", "energetic", "youngest"],
+    "scores": {
+      "cute": 5,
+      "cool": 1,
+      "energetic": 4,
+      "calm": 1,
+      "funny": 3,
+      "mysterious": 1
+    }
+  },
+  {
+    "id": "member-02",
+    "name": "メンバー2",
+    "nameKo": "멤버 2",
+    "nameEn": "Member 2",
+    "groupId": "group-a",
+    "photoUrl": "https://placehold.co/400x400/FF6B9D/white?text=2",
+    "tags": ["cool", "leader", "tall"],
+    "scores": {
+      "cute": 2,
+      "cool": 5,
+      "energetic": 3,
+      "calm": 3,
+      "funny": 2,
+      "mysterious": 3
+    }
+  },
+  {
+    "id": "member-03",
+    "name": "メンバー3",
+    "nameKo": "멤버 3",
+    "nameEn": "Member 3",
+    "groupId": "group-a",
+    "photoUrl": "https://placehold.co/400x400/FF6B9D/white?text=3",
+    "tags": ["funny", "energetic", "mood-maker"],
+    "scores": {
+      "cute": 3,
+      "cool": 2,
+      "energetic": 5,
+      "calm": 1,
+      "funny": 5,
+      "mysterious": 1
+    }
+  },
+  {
+    "id": "member-04",
+    "name": "メンバー4",
+    "nameKo": "멤버 4",
+    "nameEn": "Member 4",
+    "groupId": "group-a",
+    "photoUrl": "https://placehold.co/400x400/FF6B9D/white?text=4",
+    "tags": ["calm", "mysterious", "visual"],
+    "scores": {
+      "cute": 2,
+      "cool": 4,
+      "energetic": 1,
+      "calm": 5,
+      "funny": 1,
+      "mysterious": 5
+    }
+  },
+  {
+    "id": "member-05",
+    "name": "メンバー5",
+    "nameKo": "멤버 5",
+    "nameEn": "Member 5",
+    "groupId": "group-b",
+    "photoUrl": "https://placehold.co/400x400/7C5CFF/white?text=5",
+    "tags": ["cute", "calm", "vocalist"],
+    "scores": {
+      "cute": 4,
+      "cool": 2,
+      "energetic": 2,
+      "calm": 4,
+      "funny": 2,
+      "mysterious": 2
+    }
+  },
+  {
+    "id": "member-06",
+    "name": "メンバー6",
+    "nameKo": "멤버 6",
+    "nameEn": "Member 6",
+    "groupId": "group-b",
+    "photoUrl": "https://placehold.co/400x400/7C5CFF/white?text=6",
+    "tags": ["cool", "energetic", "dancer"],
+    "scores": {
+      "cute": 1,
+      "cool": 5,
+      "energetic": 5,
+      "calm": 1,
+      "funny": 3,
+      "mysterious": 2
+    }
+  },
+  {
+    "id": "member-07",
+    "name": "メンバー7",
+    "nameKo": "멤버 7",
+    "nameEn": "Member 7",
+    "groupId": "group-b",
+    "photoUrl": "https://placehold.co/400x400/7C5CFF/white?text=7",
+    "tags": ["funny", "cute", "maknae"],
+    "scores": {
+      "cute": 5,
+      "cool": 1,
+      "energetic": 4,
+      "calm": 2,
+      "funny": 4,
+      "mysterious": 1
+    }
+  },
+  {
+    "id": "member-08",
+    "name": "メンバー8",
+    "nameKo": "멤버 8",
+    "nameEn": "Member 8",
+    "groupId": "group-b",
+    "photoUrl": "https://placehold.co/400x400/7C5CFF/white?text=8",
+    "tags": ["mysterious", "cool", "rapper"],
+    "scores": {
+      "cute": 1,
+      "cool": 4,
+      "energetic": 3,
+      "calm": 3,
+      "funny": 2,
+      "mysterious": 5
+    }
+  },
+  {
+    "id": "member-09",
+    "name": "メンバー9",
+    "nameKo": "멤버 9",
+    "nameEn": "Member 9",
+    "groupId": "group-a",
+    "photoUrl": "https://placehold.co/400x400/FF6B9D/white?text=9",
+    "tags": ["energetic", "funny", "center"],
+    "scores": {
+      "cute": 3,
+      "cool": 3,
+      "energetic": 5,
+      "calm": 1,
+      "funny": 4,
+      "mysterious": 2
+    }
+  },
+  {
+    "id": "member-10",
+    "name": "メンバー10",
+    "nameKo": "멤버 10",
+    "nameEn": "Member 10",
+    "groupId": "group-b",
+    "photoUrl": "https://placehold.co/400x400/7C5CFF/white?text=10",
+    "tags": ["calm", "cute", "eldest"],
+    "scores": {
+      "cute": 4,
+      "cool": 2,
+      "energetic": 2,
+      "calm": 5,
+      "funny": 3,
+      "mysterious": 3
+    }
+  }
+]

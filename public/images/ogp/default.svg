@@ -1,0 +1,40 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffecd2"/>
+      <stop offset="50%" style="stop-color:#fcb69f"/>
+      <stop offset="100%" style="stop-color:#fbc2eb"/>
+    </linearGradient>
+    <linearGradient id="text-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f97316"/>
+      <stop offset="100%" style="stop-color:#ec4899"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  
+  <!-- 装飾円 -->
+  <circle cx="100" cy="100" r="150" fill="#fecaca" opacity="0.5"/>
+  <circle cx="1100" cy="530" r="200" fill="#c4b5fd" opacity="0.5"/>
+  
+  <!-- メインタイトル -->
+  <text x="600" y="250" text-anchor="middle" font-family="sans-serif" font-size="80" font-weight="bold" fill="url(#text-gradient)">
+    推しチェッカー
+  </text>
+  
+  <!-- サブタイトル -->
+  <text x="600" y="340" text-anchor="middle" font-family="sans-serif" font-size="36" fill="#6b7280">
+    韓国地下アイドル診断
+  </text>
+  
+  <!-- 説明文 -->
+  <text x="600" y="450" text-anchor="middle" font-family="sans-serif" font-size="28" fill="#9ca3af">
+    あなたにぴったりの推しメンバーを見つけよう！
+  </text>
+  
+  <!-- アイコン -->
+  <text x="600" y="550" text-anchor="middle" font-size="60">
+    👑✨🎤
+  </text>
+</svg>

@@ -1,0 +1,268 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Primary - Warm Coral */
+  --color-primary: #f97316;
+  --color-primary-light: #fb923c;
+  --color-primary-dark: #ea580c;
+  
+  /* Secondary - Soft Purple */
+  --color-secondary: #a855f7;
+  --color-secondary-light: #c084fc;
+  
+  /* Background */
+  --color-bg-start: #fdf2f8;
+  --color-bg-mid: #fef3c7;
+  --color-bg-end: #ede9fe;
+  
+  /* Surface */
+  --color-surface: rgba(255, 255, 255, 0.85);
+  --color-surface-hover: rgba(255, 255, 255, 0.95);
+  
+  /* Text */
+  --color-text: #1f2937;
+  --color-text-muted: #6b7280;
+  --color-text-light: #9ca3af;
+  
+  /* Accent */
+  --color-accent-pink: #ec4899;
+  --color-accent-blue: #3b82f6;
+  --color-accent-gold: #f59e0b;
+}
+
+@layer base {
+  body {
+    @apply text-gray-800 antialiased;
+    background: linear-gradient(
+      135deg,
+      var(--color-bg-start) 0%,
+      var(--color-bg-mid) 50%,
+      var(--color-bg-end) 100%
+    );
+    background-attachment: fixed;
+    min-height: 100vh;
+  }
+  
+  html {
+    font-size: 16px;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+@layer components {
+  /* ヘッダー */
+  .header {
+    @apply flex items-center justify-between py-3 mb-6;
+  }
+  
+  /* 言語スイッチャー */
+  .lang-switcher {
+    @apply flex gap-1 p-1 rounded-full;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(8px);
+  }
+  
+  .lang-btn {
+    @apply px-3 py-1.5 text-xs font-semibold rounded-full transition-all duration-200;
+    @apply text-gray-500 hover:text-gray-700;
+  }
+  
+  .lang-btn-active {
+    @apply lang-btn bg-white text-gray-800 shadow-sm;
+  }
+  
+  /* ボタン共通 */
+  .btn {
+    @apply px-6 py-3 rounded-2xl font-semibold text-center transition-all duration-200;
+    @apply active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  
+  .btn-primary {
+    @apply btn text-white shadow-lg;
+    background: linear-gradient(135deg, #f97316 0%, #ec4899 100%);
+    box-shadow: 0 8px 24px -4px rgba(249, 115, 22, 0.4);
+  }
+  
+  .btn-primary:hover {
+    box-shadow: 0 12px 32px -4px rgba(249, 115, 22, 0.5);
+    transform: translateY(-2px);
+  }
+  
+  .btn-primary:active {
+    transform: scale(0.97) translateY(0);
+  }
+  
+  .btn-secondary {
+    @apply btn bg-white/80 backdrop-blur-sm border border-gray-200;
+    @apply hover:bg-white hover:border-gray-300 hover:shadow-md;
+    @apply text-gray-700;
+  }
+  
+  /* カード共通 */
+  .card {
+    @apply bg-white/80 backdrop-blur-sm rounded-3xl border border-white/50;
+    box-shadow: 
+      0 4px 24px -4px rgba(0, 0, 0, 0.08),
+      0 0 0 1px rgba(255, 255, 255, 0.5) inset;
+  }
+  
+  .card-hover {
+    @apply card transition-all duration-300;
+  }
+  
+  .card-hover:hover {
+    @apply bg-white/95 border-white;
+    box-shadow: 
+      0 8px 32px -4px rgba(0, 0, 0, 0.12),
+      0 0 0 1px rgba(255, 255, 255, 0.8) inset;
+    transform: translateY(-2px);
+  }
+  
+  .card-hover:active {
+    transform: scale(0.98) translateY(0);
+  }
+  
+  /* プログレスバー */
+  .progress-bar {
+    @apply h-2 bg-gray-200/50 rounded-full overflow-hidden;
+  }
+  
+  .progress-fill {
+    @apply h-full rounded-full transition-all duration-300;
+    background: linear-gradient(90deg, #f97316 0%, #ec4899 100%);
+  }
+  
+  /* メンバーカード */
+  .member-card {
+    @apply card-hover p-4 flex flex-col items-center gap-3;
+  }
+  
+  .member-image {
+    @apply w-full aspect-square rounded-2xl object-cover;
+    @apply border-2 border-white shadow-md;
+  }
+  
+  /* 選択済みスタイル */
+  .selected {
+    @apply border-orange-400 ring-4 ring-orange-200;
+  }
+  
+  /* ステップリスト */
+  .step-list {
+    @apply space-y-2 text-sm text-gray-600;
+  }
+  
+  .step-item {
+    @apply flex items-center gap-2 py-1;
+  }
+  
+  .step-icon {
+    @apply w-6 h-6 flex items-center justify-center rounded-full text-xs;
+    background: linear-gradient(135deg, #fef3c7 0%, #fce7f3 100%);
+  }
+}
+
+@layer utilities {
+  /* テキストグラデーション */
+  .text-gradient {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(135deg, #f97316 0%, #ec4899 50%, #a855f7 100%);
+  }
+  
+  .text-gradient-subtle {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(135deg, #374151 0%, #6b7280 100%);
+  }
+  
+  /* ガラス効果 */
+  .glass {
+    @apply bg-white/60 backdrop-blur-md border border-white/50;
+  }
+  
+  /* セーフエリア対応 */
+  .safe-bottom {
+    padding-bottom: env(safe-area-inset-bottom, 0);
+  }
+  
+  .safe-top {
+    padding-top: env(safe-area-inset-top, 0);
+  }
+  
+  /* デコレーション */
+  .decoration-blob {
+    position: fixed;
+    border-radius: 50%;
+    filter: blur(60px);
+    opacity: 0.4;
+    pointer-events: none;
+    z-index: -1;
+  }
+}
+
+/* アニメーション */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { 
+    opacity: 0; 
+    transform: translateY(16px); 
+  }
+  to { 
+    opacity: 1; 
+    transform: translateY(0); 
+  }
+}
+
+@keyframes scaleIn {
+  from { 
+    opacity: 0; 
+    transform: scale(0.95); 
+  }
+  to { 
+    opacity: 1; 
+    transform: scale(1); 
+  }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.4s ease-out;
+}
+
+.animate-slide-up {
+  animation: slideUp 0.5s ease-out;
+}
+
+.animate-scale-in {
+  animation: scaleIn 0.3s ease-out;
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* カスタムスクロールバー */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-300 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-400;
+}

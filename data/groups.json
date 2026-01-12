@@ -1,0 +1,16 @@
+[
+  {
+    "id": "group-a",
+    "name": "サンプルグループA",
+    "nameKo": "샘플 그룹 A",
+    "nameEn": "Sample Group A",
+    "color": "#FF6B9D"
+  },
+  {
+    "id": "group-b",
+    "name": "サンプルグループB",
+    "nameKo": "샘플 그룹 B",
+    "nameEn": "Sample Group B",
+    "color": "#7C5CFF"
+  }
+]

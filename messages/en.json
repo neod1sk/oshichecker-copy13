@@ -1,0 +1,43 @@
+{
+  "common": {
+    "appName": "Oshi Checker",
+    "appTagline": "K-Underground Idol Diagnosis",
+    "restart": "Start Over",
+    "loading": "Loading..."
+  },
+  "home": {
+    "title": "Oshi Checker",
+    "subtitle": "K-Underground Idol Diagnosis",
+    "description": "Answer a few questions and find your perfect",
+    "descriptionHighlight": "bias member",
+    "descriptionEnd": "!",
+    "step1": "Survey (about 1 min)",
+    "step2": "Battle (10 rounds)",
+    "step3": "Results (TOP 3)",
+    "startButton": "Start Diagnosis",
+    "footer": "© 2025 Oshi Checker"
+  },
+  "survey": {
+    "title": "Survey",
+    "progress": "Progress",
+    "calculating": "Finding your perfect match...",
+    "restart": "Start Over"
+  },
+  "battle": {
+    "title": "Battle",
+    "subtitle": "Which one do you prefer?",
+    "progress": "Round",
+    "vs": "VS",
+    "calculating": "Calculating results..."
+  },
+  "result": {
+    "title": "Results",
+    "subtitle": "Your Top 3 Bias Members",
+    "yourOshi": "Your Bias",
+    "rank1": "1st",
+    "rank2": "2nd",
+    "rank3": "3rd",
+    "restart": "Try Again",
+    "share": "Share Results"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "common": {
+    "appName": "최애 체커",
+    "appTagline": "한국 인디 아이돌 진단",
+    "restart": "처음부터 다시하기",
+    "loading": "로딩 중..."
+  },
+  "home": {
+    "title": "최애 체커",
+    "subtitle": "한국 인디 아이돌 진단",
+    "description": "몇 가지 질문에 답하고, 당신에게 딱 맞는",
+    "descriptionHighlight": "최애 멤버",
+    "descriptionEnd": "를 찾아보세요!",
+    "step1": "설문조사 (약 1분)",
+    "step2": "이상형 월드컵 (10회)",
+    "step3": "결과 발표 (TOP3)",
+    "startButton": "진단 시작",
+    "footer": "© 2025 최애 체커"
+  },
+  "survey": {
+    "title": "설문조사",
+    "progress": "진행",
+    "calculating": "당신의 최애를 찾고 있습니다...",
+    "restart": "처음부터 다시하기"
+  },
+  "battle": {
+    "title": "이상형 월드컵",
+    "subtitle": "어느 쪽이 좋아?",
+    "progress": "라운드",
+    "vs": "VS",
+    "calculating": "결과를 집계하고 있습니다..."
+  },
+  "result": {
+    "title": "결과 발표",
+    "subtitle": "당신의 최애 멤버 TOP3",
+    "yourOshi": "당신의 최애",
+    "rank1": "1위",
+    "rank2": "2위",
+    "rank3": "3위",
+    "restart": "다시 진단하기",
+    "share": "결과 공유하기"
+  }
+}
