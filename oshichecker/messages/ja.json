@@ -25,7 +25,7 @@
   },
   "battle": {
     "title": "二択バトル",
-    "subtitle": "どっちが好き？",
+    "subtitle": "どっちがタイプ？",
     "progress": "ラウンド",
     "vs": "VS",
     "calculating": "結果を集計しています..."

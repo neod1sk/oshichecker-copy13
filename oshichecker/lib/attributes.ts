@@ -36,8 +36,8 @@ export const ATTRIBUTE_DEFINITIONS = [
   { key: "youthful", category: "vibe", label: { ja: "フレッシュ", ko: "상큼", en: "Fresh" } },
   { key: "mysterious", category: "vibe", label: { ja: "ミステリアス", ko: "미스테리", en: "Mysterious" } },
   { key: "unique", category: "vibe", label: { ja: "個性派", ko: "개성파", en: "Unique" } },
-  { key: "idol_kpop", category: "vibe", label: { ja: "K-POPアイドル", ko: "K-POP 아이돌", en: "K-POP idol" } },
-  { key: "idol_polished", category: "vibe", label: { ja: "洗練アイドル", ko: "세련 아이돌", en: "Polished idol" } },
+  { key: "idol_kpop", category: "vibe", label: { ja: "K-POPアイドル型", ko: "K-POP 아이돌형", en: "K-POP Idol Type" } },
+  { key: "idol_polished", category: "vibe", label: { ja: "アイドル感強め", ko: "아이돌미가 강하다", en: "Strong idol vibes" } },
   // face (vibe扱い)
   { key: "face_cat", category: "vibe", label: { ja: "猫顔", ko: "고양이상", en: "Cat face" } },
   { key: "face_dog", category: "vibe", label: { ja: "子犬顔", ko: "강아지상", en: "Puppy face" } },
@@ -60,14 +60,14 @@ export const ATTRIBUTE_DEFINITIONS = [
   { key: "charisma", category: "performance", label: { ja: "カリスマ", ko: "카리스마", en: "Charisma" } },
 
   // meet
-  { key: "comfort", category: "meet", label: { ja: "安心感", ko: "안심감", en: "Comfort" } },
+  { key: "comfort", category: "meet", label: { ja: "癒し系", ko: "힐링형", en: "Soothing Type" } },
   { key: "cheer", category: "meet", label: { ja: "わくわく", ko: "설렘", en: "Excitement" } },
   { key: "charming", category: "meet", label: { ja: "愛嬌", ko: "애교", en: "Charm" } },
   { key: "calm", category: "meet", label: { ja: "穏やか", ko: "온화함", en: "Calm" } },
   { key: "dry", category: "meet", label: { ja: "ドライ", ko: "쿨함", en: "Dry" } },
   { key: "kind", category: "meet", label: { ja: "優しさ", ko: "상냥함", en: "Kindness" } },
   { key: "talk", category: "meet", label: { ja: "トーク力", ko: "토크력", en: "Talk skill" } },
-  { key: "recognition", category: "meet", label: { ja: "認知", ko: "인지도", en: "Recognition" } },
+  { key: "recognition", category: "meet", label: { ja: "認知強め", ko: "팬 인지 강함", en: "Fan-Aware" } },
   { key: "closeness", category: "meet", label: { ja: "距離感", ko: "거리감", en: "Closeness" } },
   { key: "social", category: "meet", label: { ja: "社交性", ko: "사교성", en: "Sociability" } },
   { key: "gap", category: "meet", label: { ja: "ツンデレ", ko: "츤데레", en: "Tsundere" } },

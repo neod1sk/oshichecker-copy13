@@ -141,7 +141,7 @@ export default function BattleClient({ locale, dict }: BattleClientProps) {
           {/* VS */}
           <div className="flex-shrink-0 w-14 h-14 md:w-16 md:h-16 rounded-full bg-white/80 backdrop-blur 
             flex items-center justify-center shadow-lg border border-gray-100">
-            <span className="text-sm md:text-base font-bold text-gray-500">{dict.vs}</span>
+            <span className="text-sm md:text-base font-bold text-gray-500">or</span>
           </div>
 
           {/* 右のメンバー */}
